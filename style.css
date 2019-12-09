@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Georgia', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: relative;
+  border-bottom: #efefef 2px solid;
+  top: -20px;
+  left: 230px;
+  opacity: .9;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  width: 1700px;
+  height: 80px;
+  background-color: #5AA0DA;
+}
+
+
+.logo {
+  position: relative;
+  top: -50px;
+  bottom: -2px;
+  left: 25px;
+}
+
+.logo1 {
+  position: relative;
+  top: -46px;
+  bottom: -14px;
+  left: 22px;
+}
+
+.p {
+  position: relative;
+  top: -60px;
+  left: 103px;
+  color: white;
+}
+
+.nav {
+  height: 100%;
+  width: 250px;
+  margin-left: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #5AA0DA;
+  opacity: .9;
+  padding-top: 60px;
+}
+
+.nav ul {
+  padding: 0;
+}
+
+#hover:hover {
+  background-color: #87C0EF;
+}
+
+#hover1:hover {
+  background-color: #87C0EF;
+}
+
+#hover2:hover {
+  background-color: #87C0EF;
+}
+
+#button:hover {
+  background-color: #87C0EF;
+}
+
+.nav .smenu a {
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.nav a {
+  display: block;
+  padding: 20px 26px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#hover:hover {
+  color: #3F3F3F;
+  transition: .4s;
+}
+
+#hover1:hover {
+  color: #3F3F3F;
+  transition: .4s;
+}
+
+#hover2:hover {
+  color: #3F3F3F;
+  transition: .4s;
+}
+
+#button:hover {
+  color: #3F3F3F;
+  transition: .4s;
+}
+
+
+.nav .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.nav h2 {
+  position: absolute;
+  top: 20px;
+  right: 95px;
+  margin-left: 70px;
+  font-size: 35px;
+  color: white;
+}
+
+#hover {
+  position: relative;
+  top: 10px;
+}
+
+#hover1 {
+  position: relative;
+  top: 10px;
+}
+
+#hover2 {
+  position: relative;
+  top: 4px;
+}
+
+.slide a {
+  font-size: 36px;
+  color: #595959;
+}
+
+#bars {
+  position: absolute;
+  top: 92px;
+}
+
+#content {
+  padding: 20px;
+  transition: margin-left .7s;
+  overflow: hidden;
+  width: 100%;
+}
+
+.icon:hover {
+  background-color: #87C0EF;
+}
+
+.smenu {
+  background: #61A5DE;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0;
+}
+
+.item:target .smenu {
+  max-height: 40em;
+}
+
+.item {
+  position: relative;
+  top: 10px;
+}
+
+.inside {
+  top: 20px;
+}
+
+.content {
+  margin-right: 130px;
+  margin-left: 60px;
+}
+
+.item0 h2 {
+  position: relative;
+  left: 600px;
+  top: 20px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item0 p {
+  position: relative;
+  top: -12px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.item1 h2 {
+  position: relative;
+  left: 665px;
+  top: -38px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item1 p {
+  position: relative;
+  top: -70px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.item2 h2 {
+  position: relative;
+  left: 605px;
+  top: -38px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item2 p {
+  position: relative;
+  top: -70px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.item3 h2 {
+  position: relative;
+  left: 550px;
+  top: -38px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item3 li {
+  position: relative;
+  top: -70px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.item4 h2 {
+  position: relative;
+  left: 598px;
+  top: -38px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item4 li {
+  position: relative;
+  top: -70px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.item5 h2 {
+  position: relative;
+  left: 560px;
+  top: -38px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item5 li {
+  position: relative;
+  top: -70px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.item6 h2 {
+  position: relative;
+  left: 642px;
+  top: -38px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item6 p {
+  position: relative;
+  top: -70px;
+  margin-top: 28px;
+  margin-left: 310px;
+  margin-right: 60px;
+  font-family: verdana;
+  font-size: 28px;
+}
+
+.p {
+  position: relative;
+  top: -56px;
+}
+
+.slider {
+  position: relative;
+  left: 125px;
+  top: -33px;
+  width: 995px;
+  height: 455px;
+  background: url(1.jpg) no-repeat;
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+
+@keyframes slide {
+  25% {
+  background: url(2.jpg) no-repeat;
+  }
+  50% {
+  background: url(3.jpg) no-repeat;
+  }
+  75% {
+  background: url(4.jpg) no-repeat;
+  }
+  100% {
+  background: url(1.jpg) no-repeat;
+  }
+}
+
+  
+.carousel-control-prev-icon {
+  position: relative;
+  left: 25px;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  right: 240px;
+}
+
+#barrr {
+  position: relative;
+  left: -115px;
+}
+
+#demo {
+  position: relative;
+  top: px;
+}
+
+.menu.collapse .main_container {
+  width: calc(100% - 70px);
+  margin-left: 70px;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #126AD1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.footer {
+  width: 1520px;
+  background: #4E81D7;
+  height: 260px;
+  position: relative;
+  top: 20px;
+  left: 230px;
+}
+
+.footer .footer-content {
+  position: relative;
+  top: 35px;
+  margin-left: 85px;
+}
+
+.footer .footer-bottom {
+  background: #5687DF;
+  color: #86AFF9;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.copyright-footer {
+  color: #86AFF9;
+  position: relative;
+  bottom: 5px;
+  left: 450px;
+}
+
+.footer-p {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: -70px;
+  left: 72px;
+}
+
+.footer-p2 {
+  margin-right: 950px;
+  font-family: Verdana;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: -116px;
+}
+
+#email {
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 89px;
+  left: 615px;
+}
+
+.email {
+  font-size: 20px;
+  color: white;
+  font-family: Verdana;
+  position: absolute;
+  top: 86px;
+  left: 645px;
+}
+
+#contact-us {
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 29px;
+  left: 615px;
+}
+
+.contact-us {
+  font-size: 20px;
+  color: white;
+  font-family: Verdana;
+  position: absolute;
+  top: 26px;
+  left: 645px;
+}
+
+.footer-logo {
+  position: relative;
+  top: -20px;
+}
